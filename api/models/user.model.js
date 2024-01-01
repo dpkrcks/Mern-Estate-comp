@@ -14,6 +14,10 @@ const userSchema = new mongoose.Schema({
     password:{
         type:String,
         required:true,
+    },
+    avatatr:{
+        type:String,
+        default:"https://www.bing.com/images/blob?bcid=r876AvagpIAGXA"
     }
 });
 
