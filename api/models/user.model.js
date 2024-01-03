@@ -15,9 +15,9 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
-    avatatr:{
+    avatar:{
         type:String,
-        default:"https://www.bing.com/images/blob?bcid=r876AvagpIAGXA"
+        default:"https://www.pngall.com/wp-content/uploads/5/Profile.png"
     }
 });
 
